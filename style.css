@@ -1,0 +1,28 @@
+#block-body{
+    width: 1024px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+#block-header{
+    width: 1024px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url("https://st2.depositphotos.com/2157313/8963/i/450/depositphotos_89635926-stock-photo-holding-paper-heart.jpg");
+}
+#block-right{
+    width: 280px;
+    height: auto;
+    border: 1px solid black;
+    float: right;
+}
+#block-content{
+    width: 740px;
+    height: 620px;
+    border: 1px solid black;
+}
+#block-footer{
+    width: 1024px;
+    height: 170px;
+    background-image: url(/images/footer.jpg) ;
+}
