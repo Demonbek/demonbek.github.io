@@ -20,6 +20,7 @@
     width: 740px;
     height: 620px;
     border: 1px solid black;
+    background-image: url("https://demonbek.github.io/home.jpg");
 }
 #block-footer{
     width: 1024px;
