@@ -13,9 +13,10 @@
 }
 #block-right{
     width: 280px;
-    height: auto;
-    border: 1px solid black;
+    height: 500px;
+    background-color: #313131;
     float: right;
+    margin-top: -500px;
 }
 #block-content{
     width: 740px;
@@ -28,3 +29,44 @@
     height: 170px;
     background-image: url("https://demonbek.github.io/images/footer.jpg") ;
 }
+#block-header a{
+    float: right;
+    font-family: comic;
+    font-style: italic;
+    font-size: 32px;
+    color: black;
+    margin-right: 42px;
+    padding-top: 142px;
+    
+}
+#block-right p{
+    margin-left: 42px;
+    font-family: serif;
+    font-size:22px ;
+    color: #00DB00;
+}
+#block-right p>a{
+    font-style: italic;
+    color: #CBF300;
+}
+#partnery{
+    margin-left: 42px;
+    padding-top: 20px;
+    font-family: serif;
+    font-size:24px ;
+    line-height: 20px;
+    color: #00DB00;
+}
+#partnery a{   
+    font-style: italic;
+    font-size:18px ;
+    color: #CBF300;
+}
+#google-play{
+    float: right;
+    width: 380px;
+    height: 140px;
+    margin-top: -175px;
+    margin-right: 42px;
+}
+
