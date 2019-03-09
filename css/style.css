@@ -1,28 +1,29 @@
 #block-body{
     width: 1024px;
     height: auto;
-    border: 1px solid black;
     margin: 10px auto;
+    border: 1px solid black;
 }
 #block-header{
     width: 1024px;
     height: 200px;
-    border: 1px solid black;
     background-image: url("https://demonbek.github.io/images/header.jpg");
     background-color: #cccccc;
 }
 #block-right{
     width: 280px;
     height: 500px;
-    background-color: #313131;
+    background-color: #EFEFEF;
     float: right;
-    margin-top: -500px;
+    margin-top: -502px;
+    border: 1px solid black;
+    background-image: url("https://demonbek.github.io/images/fon-right.jpg");
 }
 #block-content{
     width: 740px;
     height: 500px;
     border: 1px solid black;
-    background: url("https://demonbek.github.io/images/home.jpg") 100% 100% no-repeat;
+    background-image: url("https://demonbek.github.io/images/fon.jpg");
 }
 #block-footer{
     width: 1024px;
@@ -70,4 +71,3 @@
     margin-top: -175px;
     margin-right: 42px;
 }
-
