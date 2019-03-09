@@ -25,5 +25,5 @@
 #block-footer{
     width: 1024px;
     height: 170px;
-    background-image: url(https://demonbek.github.io/images/footer.jpg) ;
+    background-image: url("https://demonbek.github.io/images/footer.jpg") ;
 }
