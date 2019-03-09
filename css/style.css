@@ -9,6 +9,7 @@
     height: 200px;
     border: 1px solid black;
     background-image: url("https://demonbek.github.io/header.jpg");
+    background-color: #cccccc;
 }
 #block-right{
     width: 280px;
