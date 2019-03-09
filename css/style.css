@@ -8,7 +8,7 @@
     width: 1024px;
     height: 200px;
     border: 1px solid black;
-    background-image: url("/images/header.jpg");
+    background-image: url("../images/header.jpg");
 }
 #block-right{
     width: 280px;
