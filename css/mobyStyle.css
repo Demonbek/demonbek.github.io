@@ -10,18 +10,20 @@
     background-image: url("https://demonbek.github.io/images/header.jpg");
     background-color: #cccccc;
 }
-#block-right{
-    width: 740px;
-    height: 400px;
-    background-color: #EFEFEF;
-    border: 1px solid black;
 
-}
+
 #block-content{
     width: 740px;
     height: 500px;
     border: 1px solid black;
     background-image: url("https://demonbek.github.io/images/fon.jpg");
+}
+#block-right{
+    width: 740px;
+    height: 400px;
+    background-color: #EFEFEF;
+    border: 1px solid black;
+    background-image: url("https://demonbek.github.io/images/mobyfonright.jpg");
 }
 #block-footer{
     width: 740px;
