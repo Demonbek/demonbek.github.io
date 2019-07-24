@@ -44,11 +44,11 @@
     margin-left: 42px;
     font-family: serif;
     font-size:22px ;
-    color: #FF000C;
+    color: #00DB00;
 }
 #block-right p>a{
     font-style: italic;
-    color: #CBF300;
+    color: #FF000C;
 }
 #partnery{
     margin-left: 42px;
@@ -61,7 +61,7 @@
 #partnery a{   
     font-style: italic;
     font-size:18px ;
-    color: #FF000C;
+    color: #CBF300;
     text-decoration: none;
 }
 #google-play{
