@@ -36,6 +36,23 @@
     font-style: italic;
     font-size: 32px;
     color: black;
+    	text-shadow: 
+		-0   -1px 0   #FF000C,
+		 0   -1px 0   #FF000C,
+		-0    1px 0   #FF000C,
+		 0    1px 0   #FF000C,
+		-1px -0   0   #FF000C,
+		 1px -0   0   #FF000C,
+		-1px  0   0   #FF000C,
+		 1px  0   0   #FF000C,
+		-1px -1px 0   #FF000C,
+		 1px -1px 0   #FF000C,
+		-1px  1px 0   #FF000C,
+		 1px  1px 0   #FF000C,
+		-1px -1px 0   #FF000C,
+		 1px -1px 0   #FF000C,
+		-1px  1px 0   #FF000C,
+		 1px  1px 0   #FF000C;
     margin-right: 42px;
     padding-top: 142px;
     
