@@ -18,6 +18,7 @@
     margin-top: -502px;
     border: 1px solid black;
     background-image: url("https://demonbek.github.io/images/fon-right.jpg");
+    background-size: cover;
 }
 #block-content{
     width: 740px;
@@ -113,16 +114,15 @@
     float: none;
     background-color: #EFEFEF;
     border: 1px solid black;
-    margin-top: 500px;
-background-image: url("https://demonbek.github.io/images/fon.jpg");
+    margin-top: 0px;
+    background-image: url("https://demonbek.github.io/images/fon.jpg");
+    background-size: cover;
 }
 #block-content{
     width: 1024px;
     height: 500;
     border: 1px solid black;
     background-image: url("https://demonbek.github.io/images/fon.jpg");
-}
-#gifka{
-width: 1024px;
+    background-size: cover;
 }
 }
