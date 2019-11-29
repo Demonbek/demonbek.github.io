@@ -108,103 +108,10 @@
 }
 @media only screen and (min-width: 360px) and (max-width: 1200px)
 {
-#block-body{
-    width: 740px;
-    height: 1170px;
-    margin: 10px auto;
-    border: 1px solid black;
-}
-#block-header{
-    width: 740px;
-    height: 200px;
-    background-image: url("https://demonbek.github.io/images/header.jpg");
-    background-color: #cccccc;
-}
-
-
-#block-content{
-    width: 740px;
-    height: 500px;
-    border: 1px solid black;
-    background-image: url("https://demonbek.github.io/images/fon.jpg");
-}
-#gifka{
-    display:none;
-    height: 500px;
-    width: 740x;
-}
 #block-right{
     width: 740px;
     height: 500px;
     background-color: #EFEFEF;
     border: 1px solid black;
-    background-image: url("https://demonbek.github.io/images/mobyfonright.jpg");
-}
-#block-footer{
-    width: 740px;
-    height: 170px;
-    background-image: url("https://demonbek.github.io/images/footer.jpg") ;
-}
-#block-header a{
-    float: right;
-    font-family: comic;
-    font-style: italic;
-    font-size: 32px;
-    color: black;
-    margin-right: 42px;
-    padding-top: 142px;
-    
-}
-#block-right p{
-    margin-left: 42px;
-    font-family: serif;
-    font-size:22px ;
-    margin-left: 42px;
-    font-family: serif;
-    font-size:22px ;
-    color: #FFFFFF;
-    text-shadow: 
-		-0   -1px 0   #000000,
-		 0   -1px 0   #000000,
-		-0    1px 0   #000000,
-		 0    1px 0   #000000,
-		-1px -0   0   #000000,
-		 1px -0   0   #000000,
-		-1px  0   0   #000000,
-		 1px  0   0   #000000,
-		-1px -1px 0   #000000,
-		 1px -1px 0   #000000,
-		-1px  1px 0   #000000,
-		 1px  1px 0   #000000,
-		-1px -1px 0   #000000,
-		 1px -1px 0   #000000,
-		-1px  1px 0   #000000,
-		 1px  1px 0   #000000;
-}
-#block-right p>a{
-    font-style: italic;
-    color: #CBF300;
-}
-#partnery{
-    margin-left: 42px;
-    padding-top: 20px;
-    font-family: serif;
-    font-size:24px ;
-    line-height: 20px;
-    color: #00DB00;
-}
-#partnery a{   
-    font-style: italic;
-    font-size:18px ;
-    color: #CBF300;
-    text-decoration: none;
-}
-#google-play{
-    float: right;
-    width: 380px;
-    height: 140px;
-    margin-top: -175px;
-    margin-right: 42px;
-}
 
 }
