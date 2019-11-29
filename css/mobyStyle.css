@@ -1,11 +1,11 @@
 #block-body{
-    width: 740px;
+    width: 360px;
     height: auto;
     margin: 10px auto;
     border: 1px solid black;
 }
 #block-header{
-    width: 740px;
+    width: 360px;
     height: 200px;
     background-image: url("https://demonbek.github.io/images/header.jpg");
     background-color: #cccccc;
@@ -13,24 +13,24 @@
 
 
 #block-content{
-    width: 740px;
-    height: 500px;
+    width: 360px;
+    height: 240px;
     border: 1px solid black;
     background-image: url("https://demonbek.github.io/images/fon.jpg");
 }
 #gifka{
-    height: 500px;
-    width: 740px;
+    height: 240px;
+    width: 360x;
 }
 #block-right{
-    width: 740px;
+    width: 3600px;
     height: 300px;
     background-color: #EFEFEF;
     border: 1px solid black;
     background-image: url("https://demonbek.github.io/images/mobyfonright.jpg");
 }
 #block-footer{
-    width: 740px;
+    width: 360px;
     height: 170px;
     background-image: url("https://demonbek.github.io/images/footer.jpg") ;
 }
