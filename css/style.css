@@ -158,7 +158,27 @@
     margin-left: 42px;
     font-family: serif;
     font-size:22px ;
-    color: #00DB00;
+    margin-left: 42px;
+    font-family: serif;
+    font-size:22px ;
+    color: #FFFFFF;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
 }
 #block-right p>a{
     font-style: italic;
