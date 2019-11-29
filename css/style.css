@@ -111,6 +111,7 @@
 {
 #block-right{
     width: 1024px;
+    height: auto;
     float: none;
     background-color: #EFEFEF;
     border: 1px solid black;
