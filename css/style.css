@@ -125,4 +125,7 @@
     background-image: url("https://demonbek.github.io/images/fon.jpg");
     background-size: cover;
 }
+#schetchik{
+    display:none;
+}
 }
