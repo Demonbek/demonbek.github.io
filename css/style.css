@@ -110,6 +110,7 @@
 {
 #block-right{
     width: 1024px;
+    float: none;
     background-color: #EFEFEF;
     border: 1px solid black;
     margin-top: 0px;
