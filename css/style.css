@@ -6,7 +6,7 @@
 }
 #block-header{
     width: 1024px;
-    height: 200px;8
+    height: 200px;
     background-image: url("https://demonbek.github.io/images/header.jpg");
     background-color: #cccccc;
 }
@@ -106,7 +106,7 @@
     margin-top: -175px;
     margin-right: 42px;
 }
-@media all and (max-width: 400px) 
+@media all and (max-width: 740px) 
 {
 #block-body{
     width: 740px;
