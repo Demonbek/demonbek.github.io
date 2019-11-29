@@ -106,7 +106,7 @@
     margin-top: -175px;
     margin-right: 42px;
 }
-@media all and (orientation: landscape), all and (min-width: 480px) 
+@media all and (max-width: 1024px) 
 {
 #block-body{
     width: 360px;
