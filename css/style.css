@@ -129,6 +129,7 @@
     background-image: url("https://demonbek.github.io/images/fon.jpg");
 }
 #gifka{
+    display:none;
     height: 500px;
     width: 740x;
 }
