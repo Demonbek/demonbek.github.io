@@ -109,9 +109,9 @@
 @media only screen and (min-width: 360px) and (max-width: 1200px)
 {
 #block-right{
-    width: 740px;
-    height: 500px;
+    width: 1024px;
     background-color: #EFEFEF;
     border: 1px solid black;
+}
 
 }
