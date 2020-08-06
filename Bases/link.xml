@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MobileApp xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:bsch="http://v8.1c.ru/8.2/data/bsl" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dl="http://v8.1c.ru/8.2/managed-application/dynamic-list" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:mf="http://v8.1c.ru/8.3/mobile-application/form" xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pl="http://v8.1c.ru/8.3/data/planner" xmlns:role="http://v8.1c.ru/8.2/roles" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ЛинкСчета" id="5ff113f5-7348-4368-a744-bf93352493fb" formatVersion="2" platformVersion="8.3.13.1690" containerID="4bd68e70-9cc3-446c-8115-1ceaa621a5ec" defaultLanguage="Language.Русский" scriptVariant="Russian">
+	<synonym>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Линк счета</v8:content>
+		</v8:item>
+	</synonym>
+	<language name="Русский" id="57b3c523-e1c1-40cc-b354-22128bc5670e" languageCode="ru">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Русский</v8:content>
+			</v8:item>
+		</synonym>
+	</language>
+	<mainModule version="1" startAddr="0">
+		<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+		<bsch:cmdOperand>0,0</bsch:cmdOperand>
+	</mainModule>
+	<sessionModule version="1">
+		<bsch:cmdOpCode>22</bsch:cmdOpCode>
+		<bsch:cmdOperand>0</bsch:cmdOperand>
+	</sessionModule>
+	<catalog name="КлиентыСчета" id="23b35c9e-666e-4ba7-9a60-91086b6e9964">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Клиенты</v8:content>
+			</v8:item>
+		</synonym>
+		<generatedType name="CatalogObject.КлиентыСчета" category="Object">
+			<xr:TypeId>11a0bedf-abe2-45ee-a2ee-5c99bcc8077a</xr:TypeId>
+			<xr:ValueId>4fed02b0-f0e0-4512-8dff-20ee9e717960</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogRef.КлиентыСчета" category="Ref">
+			<xr:TypeId>83942aef-0efd-4050-badf-b5baf4531003</xr:TypeId>
+			<xr:ValueId>0a5482dd-9954-4352-8781-01f02353d777</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogSelection.КлиентыСчета" category="Selection">
+			<xr:TypeId>bb552581-6731-4a11-ac5c-ee29fa3a7695</xr:TypeId>
+			<xr:ValueId>23d61091-58e5-477f-9572-ff71e6d5c64c</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogList.КлиентыСчета" category="List">
+			<xr:TypeId>5858f77c-9852-4e29-beac-409f60b07481</xr:TypeId>
+			<xr:ValueId>b706715e-4a75-408d-9726-e819e00d7b7a</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogManager.КлиентыСчета" category="Manager">
+			<xr:TypeId>29be4caf-d609-4223-855d-cd6b060165ee</xr:TypeId>
+			<xr:ValueId>ee5871a0-4457-406c-98f5-15dffbddf0ae</xr:ValueId>
+		</generatedType>
+		<managerModule version="1">
+			<bsch:cmdOpCode>22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0</bsch:cmdOperand>
+		</managerModule>
+		<objectModule version="1" startAddr="0">
+			<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0,0</bsch:cmdOperand>
+		</objectModule>
+		<hierarchical>true</hierarchical>
+		<limitLevelCount>true</limitLevelCount>
+		<foldersOnTop>true</foldersOnTop>
+		<standardAttribute name="PredefinedDataName">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Predefined">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Ref">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="DeletionMark">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="IsFolder">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Owner">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>true</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>ShowError</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Parent">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>true</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Description">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>ShowError</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Code">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<inputByString>Description</inputByString>
+		<inputByString>Code</inputByString>
+		<extendedObjectPresentation>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>г</v8:content>
+			</v8:item>
+		</extendedObjectPresentation>
+		<attribute name="Адрес" id="e65b5820-1fe6-4e1f-a117-94313c15ea57">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес</v8:content>
+				</v8:item>
+			</synonym>
+			<type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>75</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</type>
+			<fillingValue xsi:type="xs:string"/>
+		</attribute>
+		<attribute name="Телефон" id="759c3361-0585-4452-ac4f-89dda94d5dcf">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Телефон</v8:content>
+				</v8:item>
+			</synonym>
+			<type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>75</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</type>
+			<fillingValue xsi:type="xs:string"/>
+		</attribute>
+	</catalog>
+	<requiredPermission>
+		<permission>Multimedia</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Calendars</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>BackgroundAudioPlayback</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Location</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Contacts</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>BackgroundLocation</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Telephony</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>PushNotification</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>LocalNotification</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Print</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>InAppPurchases</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Ads</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>FileExchangeWithPersonalComputer</permission>
+		<use>false</use>
+	</requiredPermission>
+</MobileApp>
