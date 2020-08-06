@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MobileApp xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:bsch="http://v8.1c.ru/8.2/data/bsl" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dl="http://v8.1c.ru/8.2/managed-application/dynamic-list" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:mf="http://v8.1c.ru/8.3/mobile-application/form" xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pl="http://v8.1c.ru/8.3/data/planner" xmlns:role="http://v8.1c.ru/8.2/roles" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ПерсональныйМенеджер" id="4c8ec785-fd6f-4ec9-9340-3358e5cf56c5" formatVersion="2" platformVersion="8.3.13.1690" containerID="ae9a9ee3-b9a3-46a1-93be-f9228d708737" defaultLanguage="Language.Русский" scriptVariant="Russian">
+	<synonym>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Персональный менеджер</v8:content>
+		</v8:item>
+	</synonym>
+	<language name="Русский" id="bbcd8534-94ae-405b-8562-f82fefa6f4d9" languageCode="ru">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Русский</v8:content>
+			</v8:item>
+		</synonym>
+	</language>
+	<mainModule version="1" startAddr="0">
+		<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+		<bsch:cmdOperand>0,0</bsch:cmdOperand>
+	</mainModule>
+	<sessionModule version="1">
+		<bsch:cmdOpCode>22</bsch:cmdOpCode>
+		<bsch:cmdOperand>0</bsch:cmdOperand>
+	</sessionModule>
+	<catalog name="Кошельки" id="43d99dc3-8c32-499d-a362-c0b0f37d4137">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Кошельки</v8:content>
+			</v8:item>
+		</synonym>
+		<generatedType name="CatalogObject.Кошельки" category="Object">
+			<xr:TypeId>34c973f9-2c18-4cce-8ef3-796a40a00117</xr:TypeId>
+			<xr:ValueId>a640e172-3fe7-4f48-b4f1-4c1700393d6f</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogRef.Кошельки" category="Ref">
+			<xr:TypeId>ced45687-e3e8-4a50-bb36-2af5f858b7c6</xr:TypeId>
+			<xr:ValueId>747c4484-46d8-4b70-8627-4281160665ae</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogSelection.Кошельки" category="Selection">
+			<xr:TypeId>d6c460ef-6b42-450e-b4b5-f60ba3464c19</xr:TypeId>
+			<xr:ValueId>4731c075-fd72-4e49-a02f-b5bba4e21b18</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogList.Кошельки" category="List">
+			<xr:TypeId>6e5cc071-8bd7-44dd-9450-a37588cc4be8</xr:TypeId>
+			<xr:ValueId>99f45d1e-cfb4-46bc-b05d-1bfe8763d665</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogManager.Кошельки" category="Manager">
+			<xr:TypeId>611db09e-f147-4329-bd9b-419973cfab38</xr:TypeId>
+			<xr:ValueId>5e3efbd6-ebb4-4e34-9b83-5c9664d5af0b</xr:ValueId>
+		</generatedType>
+		<managerModule version="1">
+			<bsch:cmdOpCode>22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0</bsch:cmdOperand>
+		</managerModule>
+		<objectModule version="1" startAddr="0">
+			<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0,0</bsch:cmdOperand>
+		</objectModule>
+		<foldersOnTop>true</foldersOnTop>
+		<codeLength>2</codeLength>
+		<descriptionLength>20</descriptionLength>
+		<inputByString>Description</inputByString>
+		<inputByString>Code</inputByString>
+	</catalog>
+	<catalog name="СтатьиДохода" id="82e7518c-1d1d-47ff-bfcb-385dda03070b">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статьи дохода</v8:content>
+			</v8:item>
+		</synonym>
+		<generatedType name="CatalogObject.СтатьиДохода" category="Object">
+			<xr:TypeId>2efd8ce9-2811-4864-bb39-2f140b08cc65</xr:TypeId>
+			<xr:ValueId>cee0b182-fd86-404a-bd3f-46dd02e640e4</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogRef.СтатьиДохода" category="Ref">
+			<xr:TypeId>518a4337-a8af-46c0-ac77-0de06bfc0d0e</xr:TypeId>
+			<xr:ValueId>a934c5b2-9363-4a30-a528-a388c546b082</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogSelection.СтатьиДохода" category="Selection">
+			<xr:TypeId>a017e2b3-d4e9-42f7-9ad1-9fbf396db191</xr:TypeId>
+			<xr:ValueId>653e28db-2a22-4291-9346-24c5a2073e1d</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogList.СтатьиДохода" category="List">
+			<xr:TypeId>c0a891ac-bed5-4c24-8da2-e837fb3d9c1b</xr:TypeId>
+			<xr:ValueId>89893e50-71ed-439a-af1a-09cb4e576261</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogManager.СтатьиДохода" category="Manager">
+			<xr:TypeId>94f09974-8bb0-4704-81f7-a543e1d543b7</xr:TypeId>
+			<xr:ValueId>0b8151d0-168a-4ade-be06-93f02b59d384</xr:ValueId>
+		</generatedType>
+		<managerModule version="1">
+			<bsch:cmdOpCode>22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0</bsch:cmdOperand>
+		</managerModule>
+		<objectModule version="1" startAddr="0">
+			<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0,0</bsch:cmdOperand>
+		</objectModule>
+		<foldersOnTop>true</foldersOnTop>
+		<codeLength>3</codeLength>
+		<descriptionLength>30</descriptionLength>
+		<inputByString>Description</inputByString>
+		<inputByString>Code</inputByString>
+	</catalog>
+	<catalog name="СтатьиРасхода" id="52d81565-d02a-42b7-81ca-f3c7b83eac90">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статьи расхода</v8:content>
+			</v8:item>
+		</synonym>
+		<generatedType name="CatalogObject.СтатьиРасхода" category="Object">
+			<xr:TypeId>9b1a8a85-c076-49f3-b342-2ece30c43bbf</xr:TypeId>
+			<xr:ValueId>0082044d-bdc9-45c5-b62f-7496a4afdace</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogRef.СтатьиРасхода" category="Ref">
+			<xr:TypeId>2988020f-7cb2-4499-939e-34cbe51a6ded</xr:TypeId>
+			<xr:ValueId>51ec723d-e820-4a32-b9e2-10e9aa64dd6c</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogSelection.СтатьиРасхода" category="Selection">
+			<xr:TypeId>310ad10a-d4ea-4584-8807-b0bf0b6ed946</xr:TypeId>
+			<xr:ValueId>5b5adc4b-faa9-42d6-8cda-026bf1ada6c6</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogList.СтатьиРасхода" category="List">
+			<xr:TypeId>8bf95647-5b54-46cd-8c1b-212ddda59975</xr:TypeId>
+			<xr:ValueId>3c5b07a7-421f-4fc8-91ef-7ae54e656d52</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogManager.СтатьиРасхода" category="Manager">
+			<xr:TypeId>387c2cff-a87b-4f0d-aa65-adcc367c9f44</xr:TypeId>
+			<xr:ValueId>ee113949-47b1-4174-89db-93185942afe2</xr:ValueId>
+		</generatedType>
+		<managerModule version="1">
+			<bsch:cmdOpCode>22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0</bsch:cmdOperand>
+		</managerModule>
+		<objectModule version="1" startAddr="0">
+			<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0,0</bsch:cmdOperand>
+		</objectModule>
+		<hierarchical>true</hierarchical>
+		<limitLevelCount>true</limitLevelCount>
+		<foldersOnTop>true</foldersOnTop>
+		<codeLength>3</codeLength>
+		<descriptionLength>30</descriptionLength>
+		<standardAttribute name="PredefinedDataName">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Predefined">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Ref">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="DeletionMark">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="IsFolder">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Owner">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>true</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>ShowError</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Parent">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>true</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Description">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>ShowError</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<standardAttribute name="Code">
+			<passwordMode>false</passwordMode>
+			<markNegatives>false</markNegatives>
+			<minValue xsi:nil="true"/>
+			<maxValue xsi:nil="true"/>
+			<mask/>
+			<multiLine>false</multiLine>
+			<fillFromFillingValue>false</fillFromFillingValue>
+			<fillingValue xsi:nil="true"/>
+			<fillChecking>DontCheck</fillChecking>
+			<choiceParamLinks/>
+			<choiceParams/>
+			<quickChoice>auto</quickChoice>
+			<choiceForm/>
+		</standardAttribute>
+		<inputByString>Description</inputByString>
+		<inputByString>Code</inputByString>
+	</catalog>
+	<catalog name="Контакты" id="48948993-a5e6-466f-bd0c-671012ba5bb6">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контакты</v8:content>
+			</v8:item>
+		</synonym>
+		<generatedType name="CatalogObject.Контакты" category="Object">
+			<xr:TypeId>6b8df045-94d8-4862-87d0-751110a7d00a</xr:TypeId>
+			<xr:ValueId>e7c5e587-1f5e-40d4-a462-a54dc62b1af1</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogRef.Контакты" category="Ref">
+			<xr:TypeId>18a945e3-ded3-4909-bd8d-0b97f327c68b</xr:TypeId>
+			<xr:ValueId>4b8b4cae-52a5-445b-86b7-18e61a1aa8d1</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogSelection.Контакты" category="Selection">
+			<xr:TypeId>1e56061e-0ee2-452a-839f-62a1c5d9a9c0</xr:TypeId>
+			<xr:ValueId>e7b59fd6-ffde-4ba3-bd87-4660737dd51d</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogList.Контакты" category="List">
+			<xr:TypeId>4c656570-0746-43e8-8f3b-47c1bbfe42bd</xr:TypeId>
+			<xr:ValueId>59f9be11-6321-4c63-994b-a3ed8fcb9e73</xr:ValueId>
+		</generatedType>
+		<generatedType name="CatalogManager.Контакты" category="Manager">
+			<xr:TypeId>da92b09f-9eaa-497f-9ff9-88cc4e850cd5</xr:TypeId>
+			<xr:ValueId>3aa9a4a2-0afc-4d6c-9d78-5763213986be</xr:ValueId>
+		</generatedType>
+		<managerModule version="1">
+			<bsch:cmdOpCode>22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0</bsch:cmdOperand>
+		</managerModule>
+		<objectModule version="1" startAddr="0">
+			<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0,0</bsch:cmdOperand>
+		</objectModule>
+		<foldersOnTop>true</foldersOnTop>
+		<inputByString>Description</inputByString>
+		<inputByString>Code</inputByString>
+		<attribute name="ВидКонтакта" id="26df6790-d885-4d8c-9d50-855c74d9eee7">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид контакта</v8:content>
+				</v8:item>
+			</synonym>
+			<type>
+				<v8:Type>cfg:EnumRef.ВидКонтакта</v8:Type>
+			</type>
+		</attribute>
+		<attribute name="Мобильный" id="b93d4ccc-6e85-42bb-bcaf-331edba2c4c0">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Моб. тел.</v8:content>
+				</v8:item>
+			</synonym>
+			<type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</type>
+			<fillingValue xsi:type="xs:string"/>
+		</attribute>
+		<attribute name="Рабочий" id="b0cea117-add8-4f8f-aa3a-ae336a891db9">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Раб. тел.</v8:content>
+				</v8:item>
+			</synonym>
+			<type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</type>
+			<fillingValue xsi:type="xs:string"/>
+		</attribute>
+		<attribute name="Фирма" id="9b0617a8-ff0e-40bc-bed6-f30d09b5dd89">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фирма</v8:content>
+				</v8:item>
+			</synonym>
+			<type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</type>
+			<fillingValue xsi:type="xs:string"/>
+		</attribute>
+		<attribute name="ДатаРождения" id="585f22dc-172a-4e97-b42a-e300fa389a47">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата рождения</v8:content>
+				</v8:item>
+			</synonym>
+			<type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</type>
+		</attribute>
+	</catalog>
+	<enum name="ВидКонтакта" id="6cf6fbd4-4f6c-4307-9884-51ff2f6b8431">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид контакта</v8:content>
+			</v8:item>
+		</synonym>
+		<generatedType name="EnumRef.ВидКонтакта" category="Ref">
+			<xr:TypeId>87744e69-bd45-43a8-a060-91dd79706780</xr:TypeId>
+			<xr:ValueId>bd262d3c-f209-4aa6-a186-74089a9043d1</xr:ValueId>
+		</generatedType>
+		<generatedType name="EnumManager.ВидКонтакта" category="Manager">
+			<xr:TypeId>b55b87fa-82a3-47ec-b4f6-f4502e33cf36</xr:TypeId>
+			<xr:ValueId>49174d58-1236-4dd1-9866-3133951acfe8</xr:ValueId>
+		</generatedType>
+		<generatedType name="EnumList.ВидКонтакта" category="List">
+			<xr:TypeId>8cb9b216-9355-41c2-9d7b-0b55937e9ade</xr:TypeId>
+			<xr:ValueId>02d0837b-10d3-4036-bd0a-69565a337ca7</xr:ValueId>
+		</generatedType>
+		<managerModule version="1" startAddr="0">
+			<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0,0</bsch:cmdOperand>
+		</managerModule>
+		<value name="личный" id="a1ea25b1-a041-4e5f-9066-f893d917aa11">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>личный</v8:content>
+				</v8:item>
+			</synonym>
+		</value>
+		<value name="деловой" id="fa999ce4-4d89-43e8-95e2-e4220a47e9e2">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>деловой</v8:content>
+				</v8:item>
+			</synonym>
+		</value>
+	</enum>
+	<requiredPermission>
+		<permission>Multimedia</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Calendars</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>BackgroundAudioPlayback</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Location</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Contacts</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>BackgroundLocation</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Telephony</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>PushNotification</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>LocalNotification</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Print</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>InAppPurchases</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Ads</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>FileExchangeWithPersonalComputer</permission>
+		<use>false</use>
+	</requiredPermission>
+</MobileApp>
