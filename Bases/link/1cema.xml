@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Линк" id="bfe03c29-df5b-4485-9dd8-a398aca1b928" lastUpdateUUID="9a77236c-f2b2-4335-89fd-b5fd2d2dac25" formatVersion="3" defaultLanguage="Language.Русский" version="1">
+<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Линк" id="bfe03c29-df5b-4485-9dd8-a398aca1b928" lastUpdateUUID="778926b5-c4c2-4189-83f6-0f0ea512ae6f" formatVersion="3" defaultLanguage="Language.Русский" version="1">
 	<synonym>
 		<item xmlns="http://v8.1c.ru/8.1/data/core">
 			<lang>ru</lang>
