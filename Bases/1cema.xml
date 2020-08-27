@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ФлэшМоб" id="debda26b-9765-4a93-b29e-a2737085e9bd" lastUpdateUUID="96f42b2d-a446-4268-947e-7542e0b1f147" formatVersion="3" defaultLanguage="Language.Русский" version="1">
+<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ФлэшМоб" id="debda26b-9765-4a93-b29e-a2737085e9bd" lastUpdateUUID="12a0a856-85dd-4744-9218-6c3f068cc62b" formatVersion="3" defaultLanguage="Language.Русский" version="1">
 	<synonym>
 		<item xmlns="http://v8.1c.ru/8.1/data/core">
 			<lang>ru</lang>
