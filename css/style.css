@@ -72,9 +72,9 @@
 }
 #partnery{
     margin-left: 42px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: serif;
-    font-size:24px ;
+    font-size:22px ;
     line-height: 20px;
     color: #FFFFFF;
     text-shadow: 
@@ -130,4 +130,4 @@
 #schetchik{
     display:none;
 }
-}
+
